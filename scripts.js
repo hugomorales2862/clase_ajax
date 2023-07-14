@@ -52,7 +52,7 @@ const consultarPokemon = async (e) => {
 const consultaAPI = async (e) => {
     const url = `./consulta.php`
     const config = {
-        method : 'GET'
+        method : 'POST'
     }
 
     try {
@@ -61,11 +61,11 @@ const consultaAPI = async (e) => {
         
         const data = await respuesta.text()
 
-        console.log(data)
+        alert(data)
          
        
     } catch (error) {
-        console.log(error)
+        alert(error)
     }
 }
 
