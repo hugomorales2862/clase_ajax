@@ -15,7 +15,7 @@
     </form>
     <br>
     <p id="estado"></p>
-    <table border="1px solid">
+    <table border ="1px solid">
         <thead>
             <tr>
                 <th>DATO</th>
